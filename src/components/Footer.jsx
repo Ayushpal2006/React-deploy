@@ -21,12 +21,12 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
+                                    <Link to="/react-deploy/" className="hover:underline">
                                         Home
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="hover:underline">
+                                    <Link to="/react-deploy/about" className="hover:underline">
                                         About
                                     </Link>
                                 </li>
@@ -46,7 +46,7 @@ export default function Footer() {
                                     </a>
                                 </li>
                                 <li>
-                                    <Link to="/" className="hover:underline">
+                                    <Link to="/react-deploy/" className="hover:underline">
                                         Discord
                                     </Link>
                                 </li>

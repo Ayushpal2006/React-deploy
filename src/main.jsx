@@ -12,28 +12,28 @@ import { RouterProvider , createBrowserRouter} from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/react-deploy',
     element: <Layout/>,
     children: [
       {
-        path: '',
+        path: '/react-deploy',
         element: <Home/>,
       },
       {
-        path: 'about',
+        path: '/react-deploy/about',
         element: <About/>,
       },
       {
-        path: 'contact',
+        path: '/react-deploy/contact',
         element: <Contact/>,
       },
       {
-        path: 'user/:username',
+        path: '/react-deploy/user/:username',
         element: <User/>,
       },
       {
         loader:(githubInfoLoader),
-        path: 'github',
+        path: '/react-deploy/github',
         element: <Github/>,
       },
     ],
